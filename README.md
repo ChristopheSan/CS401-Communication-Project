@@ -1,1 +1,1 @@
-# CS401-Communication-Project
+# Network Chat Application using websockets
