@@ -1,10 +1,18 @@
-package tests;
-
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;
 
 @Suite
-@SelectClasses({})
+@SelectClasses({LoginMessageTest.class,
+    LogoutMessageTest.class,
+    ChatMessageTest.class,
+    CreateChatMessageTest.class,
+    UpdateUserMessageTest.class,
+    AddUsersToChatMessageTest.class,
+    NotifyMessageTest.class,
+    PinChatMessageTest.class,
+    ChatRoomTest.class,
+    MessageTest.class,
+    UserTest.class})
 public class AllTests {
 
 }
